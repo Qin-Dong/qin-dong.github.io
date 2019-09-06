@@ -19,4 +19,16 @@ author: QinDong
 第二天上班后，把电脑带到办公室，开启继续折腾模式。把AS下面出错时显示的错误提示信息几乎都拷出来在网上搜索过一遍。CSDN里倒是有一大堆类似的问题和解决办法，但按上面所说总是不能凑效。主要是SDK的下载安装与Gradle更新。安卓SDK倒是不陌生，但那个gradle一直没有摸透是个什么东东，到现在也不道是干什么使的，只是知道AS离了它啥也干不了。
 
 一直耐心地在网上搜索各种问题的解决办法，快到中午下班前的一次Build时，提示窗口一路打勾，直到出现Run Task，才终于如释重负，AS终于被老夫搞定。搞定之后静下心来仔细想了下是什么地方起了关键作用呢？问题搞定了都不知是咋搞定的，但有一步我认为可能是关键，就是在设置Proxy时，前面使用的都是CSDN里或网上其它博客中提到的Proxy地址，直到在浏览GitHub时看到一个代理地址列表，死马当活马医地把最前面几个中的一个中国的IP地址和端口设置到AS中，可能是这步起了关键作用。
+
 ![](./images/2019/20190906092148737.png)
+
+现在总结下安装步骤：
+
+1、JAVA JDK的安装：https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html，下载的8u221 Windows 64版；
+
+2、Android Studio下载：https://developer.android.google.cn/studio 上下载最新版，其它地方的也下载过，但最后是在这下载的3.4版（到我写此文时仅过了一天，今天上去看就变成3.5版的了，呵呵）；
+
+3、Android SDK：https://www.androiddevtools.cn/index.html#sdk-tools （其实在网通的情况下AS是可以自己下载SDK的，只是没这个SDK tools下载得快）下载SDK Tools安装后运行，选择几个常用的SDK下载（我只选了8.0版），然后将下载的SDK拷贝或移动到某个驱动器下的“android-sdk”目录中，这是因为在AS的某一步中明确提示SDK库的路径中不能包含空格字符。上面这个地址的SDK Tools可能是为Eclipse准备的。将SDK下载一两个版本后，运行AS，按提示操作，更新后就可以了。
+————————————————
+版权声明：本文为CSDN博主「Qin Dong」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/hjpqindong/article/details/100572318
