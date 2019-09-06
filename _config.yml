@@ -6,10 +6,10 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: HyG
-brief-intro: Front-end Dev Engineer
+title: QinDong
+brief-intro: Registered surveyor,senior engineer
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://gaohaoyang.github.io" # the base hostname & protocol for your site
+url: "https://qin-dong.github.io" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
@@ -21,7 +21,7 @@ email: cehui@139.com
 weibo_username: cehuis
 zhihu_username: iqindong
 linkedIn_username: QinDong
-dribbble_username:
+#dribbble_username:
 
 description_footer: 本站记录我前端之旅的沿途风景！
 
