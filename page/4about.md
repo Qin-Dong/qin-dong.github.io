@@ -11,17 +11,20 @@ type: page
 
 ## 关于我
 
-<iframe src="https://githubbadge.appspot.com/gaohaoyang?s=1" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe>
+注册测绘师，工程测量高级工程师
+
+- [qin-dong.github.io](qin-dong.github.io)
+- [www.cehuis.com](www.cehuis.com)
 
 ## 联系我
 
-* GitHub：[Gaohaoyang](https://github.com/Gaohaoyang)
-* email：gaohaoyang126@126.com
-* [Weibo](http://weibo.com/3115521wh)
-* [知乎](https://www.zhihu.com/people/gaohaoyang)
-* [Facebook](https://www.facebook.com/gaohaoyang.water)
-* [豆瓣](https://www.douban.com/people/42525035/)
-* [豆瓣音乐人-浩阳的小站](https://site.douban.com/haoyangaiyinyue/)
+* GitHub：[Qin-Dong](https://github.com/Qin-Dong)
+* GitEE：[Qin-Dong](https://gitee.com/Qin-Dong)
+* email：cehui@139.com
+* [微博:cehuis](http://weibo.com/qindonge)
+* [知乎:QinDong](https://www.zhihu.com/people/QinDong)
+* [CSDN:QinDong](https://blog.csdn.net/hjpqindong)
+
 
 ## 友情链接
 
