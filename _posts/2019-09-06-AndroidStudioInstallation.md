@@ -29,6 +29,3 @@ author: QinDong
 2、Android Studio下载：https://developer.android.google.cn/studio 上下载最新版，其它地方的也下载过，但最后是在这下载的3.4版（到我写此文时仅过了一天，今天上去看就变成3.5版的了，呵呵）；
 
 3、Android SDK：https://www.androiddevtools.cn/index.html#sdk-tools （其实在网通的情况下AS是可以自己下载SDK的，只是没这个SDK tools下载得快）下载SDK Tools安装后运行，选择几个常用的SDK下载（我只选了8.0版），然后将下载的SDK拷贝或移动到某个驱动器下的“android-sdk”目录中，这是因为在AS的某一步中明确提示SDK库的路径中不能包含空格字符。上面这个地址的SDK Tools可能是为Eclipse准备的。将SDK下载一两个版本后，运行AS，按提示操作，更新后就可以了。
-————————————————
-版权声明：本文为CSDN博主「Qin Dong」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/hjpqindong/article/details/100572318
