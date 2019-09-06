@@ -1,7 +1,21 @@
 {% if site.duoshuo_shortname %}
   <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
   <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-{% endif %}
+<div id="gitalk-container"></div>
+<script>
+var gitalk = new Gitalk({
+  clientID: 'fa470c03f9178a714aa3',
+  clientSecret: 'ee12446a707c2bbbd6eab4f89e6f41b4408dbaf6',
+  repo: 'qin-dong.github.io',
+  owner: 'Qin-Dong',
+  admin: ['Qin-Dong'],
+  id: location.pathname,      // Ensure uniqueness and length less than 50
+  distractionFreeMode: false  // Facebook-like distraction free mode
+})
+
+gitalk.render('gitalk-container')
+</script>
+  {% endif %}
 
 {% if site.disqus_shortname %}
 <div id="disqus_thread"></div>
