@@ -1,4 +1,4 @@
-# Welcome to Jekyll!
+﻿# Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely need to edit after that.
@@ -23,7 +23,7 @@ zhihu_username: iqindong
 linkedIn_username: QinDong
 #dribbble_username:
 
-description_footer: 本站记录我前端之旅的沿途风景！
+#description_footer: 本站记录我前端之旅的沿途风景！
 
 # comments
 # two ways to comment, only choose one, and use your own short name
