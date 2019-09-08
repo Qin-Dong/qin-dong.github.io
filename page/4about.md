@@ -5,7 +5,9 @@ permalink: /about/
 icon: heart
 type: page
 ---
-## 关于我
+* content
+{:toc}
+## 个人简介
 
 注册测绘师，工程测量高级工程师
 
@@ -26,6 +28,6 @@ type: page
 
 [Anotherhome](https://www.anotherhome.net) \| [Reverland](http://reverland.org/) \| [ZhiLi](http://lizhipower.github.io/) \| [Simmer](http://simmer-jun.github.io/) \| [awthink](http://awthink.net/) \| [Aralic](http://aralic.github.io/) \| [zchen9](http://www.chen9.info/) \| [wuhuaji](http://wuhuaji.me/) \| [lisheng](http://www.lishengcn.cn/) \| [薛彬XueBin](http://axuebin.com/blog/) \| [TBOOX](http://www.tboox.org/cn/) \|  [Ling](http://linglinyp.com/)
 
-## Comments
+## 评论
 
 {% include comments.html %}
