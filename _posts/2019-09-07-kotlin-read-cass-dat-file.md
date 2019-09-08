@@ -10,7 +10,9 @@ author: QinDong
 {:toc}
 
 ## 体会
-kotlin有着JAVA般强大的功能，却象VB一样简单人性化。真是很好的一门语言。
+kotlin有着JAVA般强大的功能，却象VB一样简单人性化。真是很好的一门语言。因考虑到安卓强大的市场与广阔的前景，掌握其应用开发将是大有裨益的。于是着手将电脑上的安卓开发环境又重装了起来，虽然因网络不畅和SDK庞大的体积，安装开发环境是一件严竣的挑战，但经过一天多时间终于还是将其安装好了。下面是盼望已久的“hello World!”
+
+![](/_post/images/2019/201909070201.jpg)
 
 ## 代码
 
@@ -56,7 +58,4 @@ fun readFile(){
     println(line.split(",")[3]) //N
     println(line.split(",")[4]) //H
 }
-————————————————
-版权声明：本文为CSDN博主「Qin Dong」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/hjpqindong/article/details/100589988
 ```
