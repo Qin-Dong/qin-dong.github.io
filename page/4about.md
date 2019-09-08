@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  关于我
+title:  关于
 permalink: /about/
 icon: heart
 type: page
@@ -18,7 +18,9 @@ type: page
 
 * email：cehui#139.com   [微博:cehuis](http://weibo.com/qindonge)
 
-![](/img/weixin_qd.png)
+| 扫我微信 |
+| :---: |
+| ![](/img/weixin_qd.png) |
 
 
 ## 友情链接
