@@ -10,47 +10,47 @@ author: QinDong
 
 ## Button
 ``` xml
-    <Button  
-        android:id="@+id/button"  
-        android:layout_width="wrap_content"  
-        android:layout_height="wrap_content"  
-        android:layout_below="@+id/textView4"  
-        android:layout_centerHorizontal="true"  
-        android:layout_marginTop="112dp"  
-        android:text="Click Button" />
-    <EditText  
-        android:id="@+id/editText"  
-        android:layout_width="wrap_content"  
-        android:layout_height="wrap_content"  
-        android:layout_alignBaseline="@+id/textView2"  
-        android:layout_alignBottom="@+id/textView2"  
-        android:layout_alignParentEnd="true"  
-        android:layout_alignParentRight="true"  
-        android:layout_marginEnd="21dp"  
-        android:layout_marginRight="21dp"  
-        android:ems="10"  
-        android:inputType="textPersonName"  
-        android:text="" />  
-    <TextView  
-        android:id="@+id/textView"  
-        android:layout_width="wrap_content"  
-        android:layout_height="wrap_content"  
-        android:layout_alignLeft="@+id/editText"  
-        android:layout_alignStart="@+id/editText"  
-        android:layout_alignTop="@+id/textView3"  
-        android:textSize="16sp"  
-        android:text="TextView" />    
+<Button  
+    android:id="@+id/button"  
+    android:layout_width="wrap_content"  
+    android:layout_height="wrap_content"  
+    android:layout_below="@+id/textView4"  
+    android:layout_centerHorizontal="true"  
+    android:layout_marginTop="112dp"  
+    android:text="Click Button" />
+<EditText  
+    android:id="@+id/editText"  
+    android:layout_width="wrap_content"  
+    android:layout_height="wrap_content"  
+    android:layout_alignBaseline="@+id/textView2"  
+    android:layout_alignBottom="@+id/textView2"  
+    android:layout_alignParentEnd="true"  
+    android:layout_alignParentRight="true"  
+    android:layout_marginEnd="21dp"  
+    android:layout_marginRight="21dp"  
+    android:ems="10"  
+    android:inputType="textPersonName"  
+    android:text="" />  
+<TextView  
+    android:id="@+id/textView"  
+    android:layout_width="wrap_content"  
+    android:layout_height="wrap_content"  
+    android:layout_alignLeft="@+id/editText"  
+    android:layout_alignStart="@+id/editText"  
+    android:layout_alignTop="@+id/textView3"  
+    android:textSize="16sp"  
+    android:text="TextView" />    
 ```
 为按钮添加事件，当EditText控件的内容不为空时将TextView的内容设为EditText的内容。
 ``` kotlin
-        button.setOnClickListener(){  
-            val inputValue: String = editText.text.toString()  
-            if (inputValue == null || inputValue.trim()==""){  
-                Toast.makeText(this,"please input data, edit text cannot be blank",Toast.LENGTH_LONG).show()  
-            }else{  
-                textView.setText(inputValue).toString()  
-            }  
+    button.setOnClickListener(){  
+        val inputValue: String = editText.text.toString()  
+        if (inputValue == null || inputValue.trim()==""){  
+            Toast.makeText(this,"please input data, edit text cannot be blank",Toast.LENGTH_LONG).show()  
+        }else{  
+            textView.setText(inputValue).toString()  
         }  
+    }  
 ```
 ### 为按钮控件添加点击事的方法:
 1. 匿名内部类:
@@ -63,7 +63,9 @@ override fun onCreate(savedInstanceState: Bundle?) {
    }
  }
 ```
+
 2. Activity实现全局OnClickListener接口:
+
 ``` kotlin
 class MainActivity : AppCompatActivity(), View.OnClickListener {
  override fun onClick(v: View?) {
@@ -80,7 +82,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
  }
 }
 ```
+
 3. 指定xml的onClick属性:
+
 ``` xml
 <Button
    android:id="@+id/bt_click"
@@ -89,6 +93,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
    android:onClick="click"
    android:text="点击" />
 ```
+
 ``` kotlin
 fun click(v: View?) {
    when (v?.id) {
@@ -104,7 +109,9 @@ fun click(v: View?) {
  ```
 
 
+
 ## TextView
+
 ```
     <TextView  
         android:id="@+id/textView1"  
@@ -134,8 +141,11 @@ fun click(v: View?) {
             }  
         }  
 ```
+
 ## EditText
+
 为EditText控件添加内容变更触发事件。控件定义代码如下：
+
 ``` xml
     <EditText  
         android:id="@+id/editText"  
@@ -151,7 +161,9 @@ fun click(v: View?) {
         android:inputType="textPersonName"  
         android:text="" />  
 ```
+
 实现代码如下：
+
 ``` kotlin
         editText.addTextChangedListener(object: TextWatcher{  
             override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {  
