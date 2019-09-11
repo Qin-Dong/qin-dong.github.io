@@ -112,34 +112,34 @@ fun click(v: View?) {
 
 ## TextView
 
-```
-    <TextView  
-        android:id="@+id/textView1"  
-        android:layout_width="wrap_content"  
-        android:layout_height="wrap_content"  
-        android:layout_alignLeft="@+id/editText"  
-        android:layout_alignStart="@+id/editText"  
-        android:layout_alignTop="@+id/textView3"  
-        android:textSize="16sp"  
-        android:text="TextView" />  
+``` xml
+<TextView  
+    android:id="@+id/textView1"  
+    android:layout_width="wrap_content"  
+    android:layout_height="wrap_content"  
+    android:layout_alignLeft="@+id/editText"  
+    android:layout_alignStart="@+id/editText"  
+    android:layout_alignTop="@+id/textView3"  
+    android:textSize="16sp"  
+    android:text="TextView" />  
      <TextView  
-        android:id="@+id/textView2"  
-        android:layout_width="wrap_content"  
-        android:layout_height="wrap_content"  
-        android:layout_alignEnd="@+id/editText"  
-        android:layout_alignRight="@+id/editText"  
-        android:layout_centerVertical="true"  
-        android:text="reset output text" />         
+    android:id="@+id/textView2"  
+    android:layout_width="wrap_content"  
+    android:layout_height="wrap_content"  
+    android:layout_alignEnd="@+id/editText"  
+    android:layout_alignRight="@+id/editText"  
+    android:layout_centerVertical="true"  
+    android:text="reset output text" />     
 ```
 
 ``` kotlin
-        textView2.setOnClickListener(){  
-            if (textView1.text.toString() == null || textView1.text.toString().trim()==""){  
-                Toast.makeText(this,"clicked on reset textView,\n output textView already reset",Toast.LENGTH_LONG).show()  
-            }else{  
-                textView1.setText("").toString()  
-            }  
-        }  
+textView2.setOnClickListener(){  
+    if (textView1.text.toString() == null || textView1.text.toString().trim()==""){  
+        Toast.makeText(this,"clicked on reset textView,\n output textView already reset",Toast.LENGTH_LONG).show()  
+    }else{  
+        textView1.setText("").toString()  
+    }  
+    }  
 ```
 
 ## EditText
@@ -147,37 +147,37 @@ fun click(v: View?) {
 为EditText控件添加内容变更触发事件。控件定义代码如下：
 
 ``` xml
-    <EditText  
-        android:id="@+id/editText"  
-        android:layout_width="wrap_content"  
-        android:layout_height="wrap_content"  
-        android:layout_alignBaseline="@+id/textView2"  
-        android:layout_alignBottom="@+id/textView2"  
-        android:layout_alignParentEnd="true"  
-        android:layout_alignParentRight="true"  
-        android:layout_marginEnd="21dp"  
-        android:layout_marginRight="21dp"  
-        android:ems="10"  
-        android:inputType="textPersonName"  
-        android:text="" />  
+<EditText  
+    android:id="@+id/editText"  
+    android:layout_width="wrap_content"  
+    android:layout_height="wrap_content"  
+    android:layout_alignBaseline="@+id/textView2"  
+    android:layout_alignBottom="@+id/textView2"  
+    android:layout_alignParentEnd="true"  
+    android:layout_alignParentRight="true"  
+    android:layout_marginEnd="21dp"  
+    android:layout_marginRight="21dp"  
+    android:ems="10"  
+    android:inputType="textPersonName"  
+    android:text="" />  
 ```
 
 实现代码如下：
 
 ``` kotlin
-        editText.addTextChangedListener(object: TextWatcher{  
-            override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {  
-              //  TODO("not implemented") //To change body of created functions use File | Settings | File Templates.  
-                Toast.makeText(applicationContext,"executed before making any change over EditText",Toast.LENGTH_SHORT).show()  
-            }  //事件：变更前触发。
+editText.addTextChangedListener(object: TextWatcher{  
+    override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {  
+      //  TODO("not implemented") //To change body of created functions use File | Settings | File Templates.  
+        Toast.makeText(applicationContext,"executed before making any change over EditText",Toast.LENGTH_SHORT).show()  
+    }  //事件：变更前触发。
   
-            override fun onTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {  
-              //  TODO("not implemented") //To change body of created functions use File | Settings | File Templates.  
-                Toast.makeText(applicationContext,"executed while making any change over EditText",Toast.LENGTH_SHORT).show()  
-            }  //事件：变更时触发。
-            override fun afterTextChanged(p0: Editable?) {  
-              //  TODO("not implemented") //To change body of created functions use File | Settings | File Templates.  
-                Toast.makeText(applicationContext,"executed after change made over EditText",Toast.LENGTH_SHORT).show()  
-            }  //事件：变更后触发。
-        })  
+    override fun onTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {  
+      //  TODO("not implemented") //To change body of created functions use File | Settings | File Templates.  
+        Toast.makeText(applicationContext,"executed while making any change over EditText",Toast.LENGTH_SHORT).show()  
+    }  //事件：变更时触发。
+    override fun afterTextChanged(p0: Editable?) {  
+      //  TODO("not implemented") //To change body of created functions use File | Settings | File Templates.  
+        Toast.makeText(applicationContext,"executed after change made over EditText",Toast.LENGTH_SHORT).show()  
+    }  //事件：变更后触发。
+    })  
 ```
