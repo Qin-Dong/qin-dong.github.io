@@ -49,7 +49,7 @@ val editText = findViewById<EditText>(R.id.editText_id)
 val editTextValue = editText.text  
 ```
 
-## TextView and ExitText Example
+## Example
 
 In this example, we input the text value in ExitText and display its value in the TextView on clicking the Button.
 
@@ -202,7 +202,9 @@ class MainActivity : AppCompatActivity() {
 }
 ```
   
-Output:
+## Output
+
 ![](/img/2019/20190911-kotlin-android-textview-and-edittext-output.png)
 
-[Original URL](https://www.javatpoint.com/kotlin-android-textview-and-edittext)
+## Original URL
+[https://www.javatpoint.com/kotlin-android-textview-and-edittext](https://www.javatpoint.com/kotlin-android-textview-and-edittext)
