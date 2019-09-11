@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Android Studio开发环境安装亲历记"
-categories: Android
-tags: android kotlin java
+categories: 安卓
+tags: Android Kotlin Java
 author: QinDong
 ---
 

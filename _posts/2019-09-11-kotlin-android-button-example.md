@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Kotlin Android Button Example"
-categories: Kotlin Android
-tags: kotlin android button
+categories: 安卓
+tags: Kotlin Android Button 控件
 author: QinDong
 ---
 * content

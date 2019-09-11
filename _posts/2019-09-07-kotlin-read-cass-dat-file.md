@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Kotlin逐行读取CASS地形数据文件坐标值"
-categories: Kotlin Geomatics
-tags: kotlin CASS 地形
+categories: 测绘 安卓
+tags: Kotlin CASS 地形
 author: QinDong
 ---
 
