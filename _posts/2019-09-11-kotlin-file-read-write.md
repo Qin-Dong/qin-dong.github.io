@@ -48,9 +48,9 @@ fun readFile() {
     val inputStream: InputStream = file.inputStream()
     val bufferedReader: BufferedReader = file.bufferedReader()
 }
-
+```
 和读取文件类似，写入文件也很简单。我们可以写入字符串，也可以写入字节流。还可以直接使用Java的Writer或者OutputStream。
-
+``` kotlin
 fun writeFile() {
     val currentDir = System.getProperty("user.dir") + "\\out"
     val file = File(currentDir, "hehe.txt")
