@@ -47,6 +47,7 @@ button4.setLayoutParams(ViewGroup.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTE
 ```
 ## Kotlin Android Button Example
 ![Output](/img/2019/20190911-kotlin-android-button-output.png)
+
 In this example, we will create the Button and performs event on them. Clicking on the Button, display a toast message.
 ### activity_main.xml
 Add the three Button from the Widgets palette in the activity_main.xml layout file. Its code is given below. The Button of id button3 added the onClick attribute and its function name is implemented in MainActivity class file.
@@ -169,4 +170,4 @@ class MainActivity : AppCompatActivity() , View.OnClickListener {
 }
 ``` 
 
-![原文地址](https://www.javatpoint.com/kotlin-android-button)
+[原文地址](https://www.javatpoint.com/kotlin-android-button)
