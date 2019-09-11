@@ -9,19 +9,14 @@ author: QinDong
 {:toc}
 
 ## Kotlin Android Button
-
 Using Kotlin, we can perform events on Android Button though different ways, using:
-
 ### 1. Implement the setOnClickListener of Button
-
 ``` kotlin
 button1.setOnClickListener(){  
             Toast.makeText(this,"button 1 clicked", Toast.LENGTH_SHORT).show()  
         }  
 ```
-
 ### 2. Implement the View.OnClickListner and override its function
-
 ``` kotlin
 button2.setOnClickListener(this)   
     . .  
@@ -29,9 +24,7 @@ button2.setOnClickListener(this)
         //  TODO("not implemented") //To change body of created functions use File | Settings | File Templates.  
     }  
 ```
-
 ### 3. Adding the onClick attribute of Button in layout file and implement its function.
-
 ``` xml
 <Button  
             android:onClick="clickButton"/>  
@@ -43,9 +36,7 @@ fun clickButton(v: View){
     mToast.show()  
 }  
 ```
-
 ### 4. Create a Button programmatically and set it on the layout
-
 ``` kotlin
 button4.setLayoutParams(ViewGroup.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT))  
         button4.setId(button4_Id)  
@@ -54,17 +45,11 @@ button4.setLayoutParams(ViewGroup.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTE
         button4.setOnClickListener(this)  
         constraintLayout.addView(button4)  
 ```
-
 ## Kotlin Android Button Example
-
-![Output](/img/20190911-kotlin-android-button-output.png)
-
+![Output](/img/2019/20190911-kotlin-android-button-output.png)
 In this example, we will create the Button and performs event on them. Clicking on the Button, display a toast message.
-
 ### activity_main.xml
-
 Add the three Button from the Widgets palette in the activity_main.xml layout file. Its code is given below. The Button of id button3 added the onClick attribute and its function name is implemented in MainActivity class file.
-
 ``` xml
 <?xml version="1.0" encoding="utf-8"?>  
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"  
@@ -134,11 +119,8 @@ Add the three Button from the Widgets palette in the activity_main.xml layout fi
         app:layout_constraintVertical_bias="0.774" />  
 </android.support.constraint.ConstraintLayout>  
 ```
-
 ### MainActivity.kt
-
 Add the following code in the MainActivity.kt class. In this class, we implement the setOnClickListener listener on the button, implements the OnClickListener of View class (View.OnClickListener) and override its function onClick. In this class, we also create a Button programmatically (button4), define its properties and set it on the layout.
-
 ``` kotlin
 package example.javatpoint.com.kotlinbutton  
   
