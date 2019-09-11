@@ -117,4 +117,5 @@ fun readFromNet() {
 }
 ```
 在项目相应文件夹下我们可以看到下载好的图片。
+
 ![](/img/2019/201909110401-kotlin-file-read-write.jpg)
