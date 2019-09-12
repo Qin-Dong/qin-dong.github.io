@@ -12,7 +12,7 @@ author: QinDong
 
 以下代码的使用方法是，用AutoCAD Civil 3D打开CASS地形图，在命令行执行代码中的命令即可，图中所有块状地形点将消失，取而代之的是生成一些CAD点。
 
-``` lisp
+```
 (defun C:CASS2POINT ()
 ;  (setq ss (ssget "X" '((0 . "insert") (8 . "GCD"))))
   (setq ss (ssget "X" '((0 . "insert") (2 . "GC*"))))

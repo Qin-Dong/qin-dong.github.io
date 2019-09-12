@@ -9,20 +9,20 @@ author: QinDong
 {:toc}
 
 基本变量类型可以通过toString方法转为字符串类型。反过来，字符串类型又该如何转为基本变量类型？如果使用Java编码，有以下几种转换方式：
-字符串转整型：Integer.parseInt(***)
-字符串转长整型：Long.parseLong(***)
-字符串转浮点数：Float.parseFloat(***)
-字符串转双精度数：Double.parseDouble(***)
-字符串转布尔型：Boolean.parseBoolean(***)
-字符串转字符数组：调用String对象的toCharArray方法
+- 字符串转整型：Integer.parseInt(***)
+- 字符串转长整型：Long.parseLong(***)
+- 字符串转浮点数：Float.parseFloat(***)
+- 字符串转双精度数：Double.parseDouble(***)
+- 字符串转布尔型：Boolean.parseBoolean(***)
+- 字符串转字符数组：调用String对象的toCharArray方法
 
 就上面的转换情况来看，Java的实现方式比较繁琐，既需要其它类型的类名，有需要其它类型的转换方法。而在Kotlin这边，转换类型相对简单，并且与基本变量类型之间的转换保持一致，具体说明如下：
-字符串转整型：调用String对象的toInt方法
-字符串转长整型：调用String对象的toLong方法
-字符串转浮点数：调用String对象的toFloat方法
-字符串转双精度数：调用String对象的toDouble方法
-字符串转布尔型：调用String对象的toBoolean方法
-字符串转字符数组：调用String对象的toCharArray方法
+- 字符串转整型：调用String对象的toInt方法
+- 字符串转长整型：调用String对象的toLong方法
+- 字符串转浮点数：调用String对象的toFloat方法
+- 字符串转双精度数：调用String对象的toDouble方法
+- 字符串转布尔型：调用String对象的toBoolean方法
+- 字符串转字符数组：调用String对象的toCharArray方法
 
 显而易见，Kotlin对字符串的类型转换更友好，也更方便记忆。
 
