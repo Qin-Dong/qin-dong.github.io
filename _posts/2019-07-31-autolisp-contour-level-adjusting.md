@@ -98,15 +98,6 @@ author: QinDong
 )
 ```
 
-``` commonlisp
-    (strcat "\n 共有< " (itoa Cnt) " >条等高线更新完毕！")
-```
-
-``` visuallisp
-    (strcat "\n 共有< " (itoa Cnt) " >条等高线更新完毕！")
-```
-
-
 有以下原地形图：
 
 ![](/img/2019/2019073110101-autolisp-contour01.png)
