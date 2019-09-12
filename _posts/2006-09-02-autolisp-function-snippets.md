@@ -90,9 +90,7 @@ author: QinDong
 ### 6、用系统关联软件打开文件
 
 ```
-;用法：
-;(setq fl (getfiled "创建面积统计文件" (cond ( *file* ) ( "" )) "txt;csv;xls" 1))
-;...
+;用法：(setq fl (getfiled "创建面积统计文件" (cond ( *file* ) ( "" )) "txt;csv;xls" 1))
 ;(_Open (findfile fl))
   (defun _Open ( target / Shell result )
     (if (setq Shell (vla-getInterfaceObject (vlax-get-acad-object) "Shell.Application"))
