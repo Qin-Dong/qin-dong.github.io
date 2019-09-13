@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Gitalk评论插件设置详解"
-categories: HTML
-tags: Gitalk Github
+categories: GitHub
+tags: GitHub
 author: QinDong
 ---
 

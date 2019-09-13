@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Git常用指令"
-categories: Git
-tags: Git
+categories: GitHub
+tags: GitHub
 author: QinDong
 ---
 
