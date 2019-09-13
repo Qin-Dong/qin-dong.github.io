@@ -18,7 +18,10 @@ A simple XML code of TextView in a layout is shown below.
         android:layout_width="wrap_content"  
         android:text="hello" />
 ```
-  
+
+
+
+
 We can get and modify the content of text view defined in the XML layout in Kotlin class file as:
 
 ``` kotlin

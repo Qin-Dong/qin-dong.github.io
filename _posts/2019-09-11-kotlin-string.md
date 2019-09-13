@@ -16,6 +16,9 @@ author: QinDong
 - 字符串转布尔型：Boolean.parseBoolean(***)
 - 字符串转字符数组：调用String对象的toCharArray方法
 
+
+
+
 就上面的转换情况来看，Java的实现方式比较繁琐，既需要其它类型的类名，有需要其它类型的转换方法。而在Kotlin这边，转换类型相对简单，并且与基本变量类型之间的转换保持一致，具体说明如下：
 - 字符串转整型：调用String对象的toInt方法
 - 字符串转长整型：调用String对象的toLong方法

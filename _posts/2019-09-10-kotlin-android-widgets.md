@@ -41,6 +41,10 @@ author: QinDong
     android:textSize="16sp"  
     android:text="TextView" />    
 ```
+
+
+
+
 为按钮添加事件，当EditText控件的内容不为空时将TextView的内容设为EditText的内容。
 ``` kotlin
     button.setOnClickListener(){  

@@ -16,6 +16,10 @@ button1.setOnClickListener(){
             Toast.makeText(this,"button 1 clicked", Toast.LENGTH_SHORT).show()  
         }  
 ```
+
+
+
+
 ### 2. Implement the View.OnClickListner and override its function
 ``` kotlin
 button2.setOnClickListener(this)   

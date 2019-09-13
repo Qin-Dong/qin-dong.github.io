@@ -19,6 +19,9 @@ var boolean_array:Array<Boolean> = arrayOf(true, false, true)
 var char_array:Array<Char> = arrayOf('a', 'b', 'c')
 ```
 
+
+
+
 数组操作：
 ``` kotlin
 btn_string.setOnClickListener {

@@ -12,6 +12,9 @@ Kotlin的IO操作都在kotlin.io包下。Kotlin的原则就是Java有的就直�
 
 下面介绍的很多方法都有一个Charset参数，可以直接要使用的字符集，默认是UTF-8。如果需要其他的字符集，用这个参数指定就行了。
 
+
+
+
 ### 终端IO
 如果学过C++的同学可能会对Java超长的输出语句System.out.println()所震惊。同样的工作在C++里面只需要简单的cout<<就可以完成。
 
