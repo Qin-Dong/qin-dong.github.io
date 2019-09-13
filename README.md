@@ -50,10 +50,10 @@ With the escalation of jekyll version, but I also want to reconstruct my older b
 First of all, let's see previews.
 
 Index Page
-![index](http://ww3.sinaimg.cn/large/7011d6cfjw1f3bdli86awj211k0oyqen.jpg)
+![index](/img/res/blog-home.png)
 
 Post Page
-![post](http://ww4.sinaimg.cn/large/7011d6cfjw1f3bdmzb9v6j210p0j7gwn.jpg)
+![post](/img/res/blog-page.png)
 
 ## Page Details
 
@@ -110,7 +110,7 @@ More info to see [syntax-highlighter-changed](https://jekyllrb.com/docs/upgradin
 
 ### Light Shadow
 
-![light](http://ww3.sinaimg.cn/large/7011d6cfjw1f3be6y4vp3j209i02rweg.jpg)
+![light](/img/res/blog-menu.jpg)
 
 You can see the white shadow on the current item in the navbar. I call this light shadow.
 
@@ -118,7 +118,7 @@ You can see the white shadow on the current item in the navbar. I call this ligh
 
 Of course, I have done a very good mobile adaptation.
 
-![mobile](http://ww4.sinaimg.cn/large/7011d6cfjw1f3bebnzxkpj20ah0fzgp4.jpg)
+![mobile](/img/res/blog-mobile.jpg)
 
 ### Footer
 
@@ -180,7 +180,7 @@ Shows at site header part.
 title: HyG
 brief-intro: Front-end Dev Engineer
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://gaohaoyang.github.io" # the base hostname & protocol for your site
+url: "http://qin-dong.github.io" # the base hostname & protocol for your site
 ```
 
 #### Link info
@@ -189,13 +189,13 @@ Mainly shows at the footer of the site.
 
 ```yml
 # other links
-twitter_username: gaohaoyang126
-facebook_username: gaohaoyang.water
-github_username:  Gaohaoyang
-email: gaohaoyang126@126.com
-weibo_username: 3115521wh
-zhihu_username: gaohaoyang
-linkedIn_username: gaohaoyang
+twitter_username: QinDong
+facebook_username: QinDong
+github_username:  Qin-Dong
+email: cehui@139.com
+weibo_username: qindonge
+zhihu_username: QinDong
+linkedIn_username: QinDong
 dribbble_username:
 
 description_footer: 本站记录我前端之旅的沿途风景！
@@ -246,7 +246,7 @@ title:  "对这个 jekyll 博客主题的改版和重构"
 date:   2016-03-12 11:40:18 +0800
 categories: jekyll
 tags: jekyll 端口 markdown Foxit RubyGems HTML CSS
-author: Haoyang Gao
+author: QinDong
 mathjax: true
 ---
 ```
@@ -300,15 +300,6 @@ Visit localhost:4000 to see your blog!!!
 ### 6. Push to GitHub
 
 If there is nothing wrong, push code to your github!
-
-## Donate
-
-You can also donate me for a coffee, and I'll do better. Thanks.
-
-|                                                                     PayPal                                                                     |                                 Wechat Pay                                  |                                   Alipay                                    |
-|:----------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------:|:---------------------------------------------------------------------------:|
-| [![PayPal](https://www.paypalobjects.com/webstatic/paypalme/images/pp_logo_small.png)<br>Donate via PayPal ](https://www.paypal.me/gaohaoyang) | ![wechat](http://ww2.sinaimg.cn/large/7011d6cfjw1f3bkdw3bslj206z06q3z6.jpg) | ![alipay](http://ww2.sinaimg.cn/large/7011d6cfjw1f3bk8ikzoij20740743z5.jpg) |
-
 
 ## Update Log
 
