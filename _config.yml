@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: QinDong
+title: Welcome to QinDong's Blog!
 brief-intro: Registered surveyor,senior engineer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://qin-dong.github.io" # the base hostname & protocol for your site
