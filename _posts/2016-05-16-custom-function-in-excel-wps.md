@@ -9,19 +9,18 @@ author: QinDong
 {:toc}
 
 在Excel或WPS表格中要使用VBA需要先打开“开发工具”菜单，打开方式请在网上度一下：
-<div style="text-align:center;">![](/img/2019/20160516-custom-function-in-excel-wps-01.jpg)</div>
-<div style="text-align:center;">在“自定义功能区”打开“开发工具”菜单</div>
+在“自定义功能区”打开“开发工具”菜单：
+![](/img/2016/20160516-custom-function-in-excel-wps-01.jpg)
+
 
 
 
 
 点击“开发工具”菜单，在“开发工具”工具栏上点击“VB编辑器”：
-<div style="text-align:center;">![](/img/2019/20160516-custom-function-in-excel-wps-02.jpg)</div>
-<div style="text-align:center;">打开“VB编辑器”</div>
+![](/img/2016/20160516-custom-function-in-excel-wps-02.jpg)
 
 在“VB编辑器”内添加一模块文件（名称任意），在代码区添加函数代码：
-<div style="text-align:center;">![](/img/2019/20160516-custom-function-in-excel-wps-03.jpg)</div>
-<div style="text-align:center;">VB编辑器内添加模块并输入代码</div>
+![](/img/2016/20160516-custom-function-in-excel-wps-03.jpg)
 
 如添加一个测量方位角计算的函数，代码如下：
 
@@ -91,12 +90,13 @@ End Select
 End Function
 ```
 
-使用效果如Excel或WPS表格内部函数一样：
-<div style="text-align:center;">![](/img/2019/20160516-custom-function-in-excel-wps-04.jpg)</div>
-<div style="text-align:center;">输入函数前两个字母时会提示函数名</div>
-<div style="text-align:center;">![](/img/2019/20160516-custom-function-in-excel-wps-05.jpg)</div>
-<div style="text-align:center;">按提示输入值</div>
-<div style="text-align:center;">![](/img/2019/20160516-custom-function-in-excel-wps-06.jpg)</div>
-<div style="text-align:center;">计算结果</div>
+使用效果如Excel或WPS表格内部函数一样，输入函数前两个字母时会提示函数名：
+![](/img/2016/20160516-custom-function-in-excel-wps-04.jpg)
+
+按提示输入值：
+![](/img/2016/20160516-custom-function-in-excel-wps-05.jpg)
+
+计算结果：
+![](/img/2016/20160516-custom-function-in-excel-wps-06.jpg)
 
 将此表格保存或另存为模板即可，也可将模块文件导出，在其它表格中导入就可使用。
