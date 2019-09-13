@@ -2,8 +2,8 @@
 layout: post
 title:  "前端的一些资料和工具"
 date:   2015-05-18 14:06:05
-categories: Tools
-tags: tools CSS reveal 配色
+categories: 工具软件
+tags: CSS
 excerpt: 记录一些好用的前端工具和框架。
 ---
 
