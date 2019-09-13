@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "利用Civil3D的装配设计器（Subassembly composer）建设高度形状自适应挡土墙"
+title:  "利用Civil3D装配设计器(SAC)建设高度形状自适应挡土墙"
 categories: Civil3D AutoCAD 测绘
 tags: Civil3D AutoCAD 部件 装配
 author: 韩兰若

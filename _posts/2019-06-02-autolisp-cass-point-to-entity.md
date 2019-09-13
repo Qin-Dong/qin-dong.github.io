@@ -2,7 +2,7 @@
 layout: post
 title:  "AutoCAD Civil 3D中将CASS地形图中地形点转换成CAD点实体"
 categories: Civil3D AutoCAD 测绘 AutoLISP
-tags: AutoCAD Civil3D CASS 地形图 AutoLISP
+tags: AutoCAD Civil3D CASS AutoLISP
 author: QinDong
 ---
 * content
