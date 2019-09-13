@@ -349,4 +349,4 @@ Configuration file: E:/GitWorkSpace/blog/_config.yml
 
 ## License
 
-[MIT License](https://github.com/Gaohaoyang/gaohaoyang.github.io/blob/master/LICENSE.md)
+[MIT License](/LICENSE.md)
