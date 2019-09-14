@@ -3,7 +3,7 @@ layout: post
 title:  "JavaScript 面向对象"
 date:   2015-06-15 14:06:05
 categories: JavaScript
-tags: JavaScript 面向对象 慕课网 ife
+tags: JavaScript
 ---
 
 * content

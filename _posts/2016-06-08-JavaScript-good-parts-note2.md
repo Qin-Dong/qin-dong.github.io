@@ -2,7 +2,7 @@
 layout: post
 title:  "JavaScript 语言精粹笔记2-继承、数组、正则表达式"
 categories: JavaScript
-tags:  继承 对象 原型 Array 正则
+tags:  继承 对象 数组 正则表达式
 ---
 
 * content
