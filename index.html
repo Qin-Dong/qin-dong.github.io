@@ -70,7 +70,7 @@ layout: default
                 </div>
                 <ul class="content-ul" recent>
                     {% for post in site.posts offset: 0 limit: 10  %}
-                        <li style="overflow:hidden;text-overflow: ellipsis;"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+                        <li><a href="{{ site.baseurl }}{{ post.url }}"><p style="display: inline-block;vertical-align:middle;width:100px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">{{ post.title }}</p></a></li>
                     {% endfor %}
                 </ul>
             </div>
