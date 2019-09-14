@@ -7,7 +7,7 @@
 
 # Site settings
 title: Welcome to QinDong's Blog!
-brief-intro: Registered surveyor,senior engineer
+brief-intro: @github
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://qin-dong.github.io" # the base hostname & protocol for your site
 
