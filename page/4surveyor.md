@@ -13,6 +13,8 @@ type: page
 
 ### AutoCAD工具箱
 
+* [下载地址(国内码云)](https://gitee.com/Qin-Dong/download/raw/master/zzACAD16ToolBox.VLX)
+
 * [加载LISP程序](/2017/01/01/acad-toolkit/#%E5%8A%A0%E8%BD%BD)
 
     AutoCAD里加载AutoLISP程序的方法，及如何加入启动组便于AutoCAD启动时自动加载程序。
