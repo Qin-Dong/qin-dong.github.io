@@ -12,30 +12,30 @@ author: QinDong
 
 AutoLisp程序可用appload命令加载。
 
-![](/img/2017/20170101-acad-toolkit-01.jpg)
+![](/img/2017/20170101-acad-toolkit-01.png)
 
 推荐加载时加入自启动组。
 
-![](/img/2017/20170101-acad-toolkit-02.jpg)
+![](/img/2017/20170101-acad-toolkit-02.png)
 
-![](/img/2017/20170101-acad-toolkit-03.jpg)
+![](/img/2017/20170101-acad-toolkit-03.png)
 
 所有命令均以“zz”开头，程序加载后在命令行中输入“zz”就会弹出所有命令列表，用上、下键在列表中选择后按回车键执行即可。
 
-![](/img/2017/20170101-acad-toolkit-04.jpg)
+![](/img/2017/20170101-acad-toolkit-04.png)
 
 ### 面积标注
 
 执行命令：zza、zzarea
 将封闭区域的面积直接标在区域内。在命令行输入：zza或zzarea
 
-![](/img/2017/20170101-acad-toolkit-05.jpg)
+![](/img/2017/20170101-acad-toolkit-05.png)
 
 输入面积编号或名称“a1”，在需求面积的区域内点击即可：
 
-![](/img/2017/20170101-acad-toolkit-06.jpg)
+![](/img/2017/20170101-acad-toolkit-06.png)
 
-![](/img/2017/20170101-acad-toolkit-07.jpg)
+![](/img/2017/20170101-acad-toolkit-07.png)
 
 图上求面积区域显示:“a1:103.61”
 
@@ -43,21 +43,21 @@ AutoLisp程序可用appload命令加载。
 
 执行命令：zzArea2Table （注意：低版本不支持表对象）
 
-![](/img/2017/20170101-acad-toolkit-08.jpg)
+![](/img/2017/20170101-acad-toolkit-08.png)
 
 按提示输入起始序号“1”，并指定面积表放置位置：
 
-![](/img/2017/20170101-acad-toolkit-09.jpg)
+![](/img/2017/20170101-acad-toolkit-09.png)
 
 将创建一个空的表对象：
 
-![](/img/2017/20170101-acad-toolkit-10.jpg)
+![](/img/2017/20170101-acad-toolkit-10.png)
 
 依次点击需求面积区域：
 
-![](/img/2017/20170101-acad-toolkit-11.jpg)
+![](/img/2017/20170101-acad-toolkit-11.png)
 
-![](/img/2017/20170101-acad-toolkit-12.jpg)
+![](/img/2017/20170101-acad-toolkit-12.png)
 
 面积值将依次加入表中，且求面积区域将显示表中对应序号。
 
