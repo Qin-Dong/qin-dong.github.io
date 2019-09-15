@@ -36,6 +36,7 @@ header {
                     list-style: none;
                     font-size: 14px;
                     display: inline-block;
+                    -webkit-transition: 0.2s ease;
                     transition: 0.2s ease;
                     a {
                         display: inline-block;
@@ -51,8 +52,6 @@ header {
                     >.active {
                         color: #fff;
                         background-color: #000;
-                        height: 52px;
-                        box-shadow: 0 25px 25px -15px rgba(255,255,255,0.93);
                     }
                 }
             }
