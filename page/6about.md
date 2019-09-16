@@ -7,25 +7,28 @@ type: page
 ---
 * content
 {:toc}
+
 ## 简介
 
-注册测绘师，测量高级工程师。
+覃东，注册测绘师，测量高级工程师。
 
 - [qin-dong.github.io](https://qin-dong.github.io)
 - [www.cehuis.com](http://www.cehuis.com)
 
 ## 联系
 
-* email：cehui#139.com   [微博:cehuis](http://weibo.com/qindonge)
+* email：cehui#139.com
+* [微博：cehuis](http://weibo.com/qindonge)
+* QQ：61902475
 
-| 扫我微信 |
-| :---: |
-| ![](/img/weixin_qd.png) |
+扫我微信：
+
+![](/img/weixin_qd.png)
 
 
 ## 友情链接
 
-[Anotherhome](https://www.anotherhome.net) \| [Reverland](http://reverland.org/) \| [ZhiLi](http://lizhipower.github.io/) \| [Simmer](http://simmer-jun.github.io/) \| [awthink](http://awthink.net/) \| [Aralic](http://aralic.github.io/) \| [zchen9](http://www.chen9.info/) \| [wuhuaji](http://wuhuaji.me/) \| [lisheng](http://www.lishengcn.cn/) \| [薛彬XueBin](http://axuebin.com/blog/) \| [TBOOX](http://www.tboox.org/cn/) 
+[GitHub](https://github.com/Qin-Dong) \| [码云](https://gitee.com/Qin-Dong/) \| [CSDN](https://blog.csdn.net/hjpqindong) \| [菜鸟教程](https://www.runoob.com) \| [古诗文网](https://www.gushiwen.org/) \| [国学网](http://www.guoxue.com/wenxian/wxshi/shibu.htm) \| [中国日报](http://www.chinadaily.com.cn/) \| [FreeCAD](https://github.com/FreeCAD/FreeCAD/releases/) \| [浩辰看图](http://web.gstarcad.com/) \| [千寻位置](https://www.qxwz.com/) \| [小书匠](http://markdown.xiaoshujiang.com/) 
 
 
 ## 评论
