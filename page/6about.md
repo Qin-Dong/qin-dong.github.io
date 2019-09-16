@@ -28,7 +28,7 @@ type: page
 
 ## 友情链接
 
-[GitHub](https://github.com/Qin-Dong) \| [码云](https://gitee.com/Qin-Dong/) \| [CSDN](https://blog.csdn.net/hjpqindong) \| [菜鸟教程](https://www.runoob.com) \| [古诗文网](https://www.gushiwen.org/) \| [国学网](http://www.guoxue.com/wenxian/wxshi/shibu.htm) \| [中国日报](http://www.chinadaily.com.cn/) \| [FreeCAD](https://github.com/FreeCAD/FreeCAD/releases/) \| [浩辰看图](http://web.gstarcad.com/) \| [千寻位置](https://www.qxwz.com/) \| [小书匠](http://markdown.xiaoshujiang.com/) 
+[GitHub](https://github.com/Qin-Dong) \| [码云](https://gitee.com/Qin-Dong/) \| [CSDN](https://blog.csdn.net/hjpqindong) \| [菜鸟教程](https://www.runoob.com) \| [古诗文网](https://www.gushiwen.org/) \| [国学网](http://www.guoxue.com/wenxian/wxshi/shibu.htm) \| [中国日报](http://www.chinadaily.com.cn/) \| [FreeCAD](https://github.com/FreeCAD/FreeCAD/releases/) \| [浩辰看图](http://web.gstarcad.com/) \| [千寻网](https://www.qxwz.com/) \| [小书匠](http://markdown.xiaoshujiang.com/) \| [EverEdit](http://everedit.cn/) 
 
 
 ## 评论
