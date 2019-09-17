@@ -12,8 +12,8 @@ type: page
 
 覃东，注册测绘师，测量高级工程师。
 
-- [qin-dong.github.io](https://qin-dong.github.io)
-- [www.cehuis.com](http://www.cehuis.com)
+- [http://qin-dong.github.io](https://qin-dong.github.io)
+- [http://www.cehuis.com](http://www.cehuis.com)
 
 ## 联系
 
@@ -23,7 +23,7 @@ type: page
 
 扫我微信：
 
-![](/img/weixin_qd.png)
+<center>![](/img/res/weixin_qd.png)</center>
 
 
 ## 友情链接
