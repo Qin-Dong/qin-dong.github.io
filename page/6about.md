@@ -23,7 +23,7 @@ type: page
 
 扫我微信：
 
-<center>![](/img/res/weixin_qd.png)</center>
+<div style="text-align:center;border:solid 1px 000;margin:2px;"><img src="/img/res/weixin_qd.png"></div>
 
 
 ## 友情链接
