@@ -7,8 +7,9 @@ author: QinDong
 ---
 * content
 {:toc}
+### 一、 Resource资源文件
 
-### 一、 从resource中的raw文件夹中获取文件并读取数据（资源文件只能读不能写）
+从resource中的raw文件夹中获取文件并读取数据（资源文件只能读不能写）
 
 ``` java
 //在Activity上添加一个TextView并命名为myTextView，在res下新建一个raw文件夹，将资源文件放在raw下
@@ -31,8 +32,10 @@ InputStream in = getResources().openRawResource(R.raw.bbi);
    }
 myTextView.setText(res);//把得到的内容显示在TextView上
 ```
- 
-### 二、 从asset中获取文件并读取数据（资源文件只能读不能写）
+
+### 二、Asset资源文件
+
+从Asset中获取文件并读取数据（资源文件只能读不能写）
 
 ``` java
 String fileName = "yan.txt"; //文件名字
@@ -48,10 +51,10 @@ res = EncodingUtils.getString(buffer, "UTF-8");
       e.printStackTrace();
    }
 ```
- 
-### 三、 从sdcard中去读文件
 
-首先要把文件通过\android-sdk-windows\tools\adb.exe把本地计算机上的文件copy到sdcard上去，adb.exe push e:/Y.txt /sdcard/, 不可以用adb.exe push e:\Y.txt \sdcard\ 同样： 把仿真器上的文件copy到本地计算机上用： adb pull ./data/data/com.tt/files/Test.txt e:/
+### 三、 SDcard文件
+
+从sdcard中去读文件，首先要把文件通过\android-sdk-windows\tools\adb.exe把本地计算机上的文件copy到sdcard上去，adb.exe push e:/Y.txt /sdcard/, 不可以用adb.exe push e:\Y.txt \sdcard\ 同样： 把仿真器上的文件copy到本地计算机上用： adb pull ./data/data/com.tt/files/Test.txt e:/
 
 ``` java
 String fileName = "/sdcard/Y.txt";
@@ -71,7 +74,7 @@ FileInputStream fin = new FileInputStream(fileName);
 }
 myTextView.setText(res);
 ```
- 
+
 ### 四、 写文件
 一般写在\data\data\com.test\files\里面，打开DDMS查看file explorer是可以看到仿真器文件存放目录的结构的
 
@@ -92,8 +95,10 @@ writeFileData(fileName, message);
        }
    }
 ```
- 
-### 五、 写， 读data/data/目录(相当AP工作目录)上的文件，用openFileOutput
+
+### 五、 data/data/目录上的文件
+
+写， 读data/data/目录(相当AP工作目录)上的文件，用openFileOutput
 
 ``` java
    //写文件在./data/data/com.tt/files/下面
@@ -127,7 +132,9 @@ writeFileData(fileName, message);
     }
 ```
 
-### 六、 写， 读sdcard目录上的文件，要用FileOutputStream， 不能用openFileOutput
+### 六、 SDcard目录上的文件
+
+写， 读sdcard目录上的文件，要用FileOutputStream， 不能用openFileOutput
 
 ``` java
     //写在/mnt/sdcard/目录下面的文件 
@@ -160,6 +167,6 @@ writeFileData(fileName, message);
         }
         return res;
    }
-``` 
+```
 
 注： openFileOutput是在raw里编译过的，FileOutputStream是任何文件都可以

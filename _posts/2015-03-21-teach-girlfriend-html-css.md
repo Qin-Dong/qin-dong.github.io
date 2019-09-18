@@ -25,7 +25,6 @@ Now I'll tell something happend today. She has watched the video above, and know
 
 We determined to copy the pages on [Zhihu](http://zhihu.com)   
 Like this:   
-![知乎zhihu](http://7q5cdt.com1.z0.glb.clouddn.com/teach-girlfriend-html-zhihu.jpg)   
 
 I teached her [Boostrap](http://www.bootcss.com/) this afternoon. She has already got to read the docs and can code simple statics pages.   
 
@@ -36,4 +35,4 @@ At last I'll show the works that we did together in 2 hours. It's unfinished. I 
 [to see Copy Zhihu, click here](http://gaohaoyang.github.io/test/bootstrap-zhihu/)   
 
 screenshot of copy Zhihu:
-![Copy Zhihu](http://7q5cdt.com1.z0.glb.clouddn.com/teach-girlfriend-html-CopyZhihu.jpg)
+

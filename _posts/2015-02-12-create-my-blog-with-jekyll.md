@@ -38,7 +38,7 @@ cd到RubyGems目录
 
 ![](http://ww1.sinaimg.cn/large/7011d6cfjw1f2ue1l2yscj20gk02amxj.jpg)
 
-执行安装   
+执行安装  
 
 ![](http://ww1.sinaimg.cn/large/7011d6cfjw1f2ue1w8eqnj20bx00hglg.jpg)  
 
