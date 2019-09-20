@@ -35,7 +35,6 @@ Markdown文章所用图片均存放在文档同目录下的“images”子目录
 
 Paste Image安装设置好后，用截图软件截图到剪贴板，回到VS code中用快捷键<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>V</kbd>即可将图片保存到文档下的“Images”目录下并同时将图片地址添加到文档中。
 
-![](../GitHub/blog/qin-dong.github.io/_posts/img/2019/20190920-162839.png)
 
 
-![](../img/2019/20190920-163204.png)
+![](../img/2019/20190920-171524.png)
