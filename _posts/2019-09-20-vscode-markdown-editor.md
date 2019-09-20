@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "WPS表格快速批量打印测量成果表"
+title:  "Visual Studio Code之Markdown编辑器增强"
 categories: 工程测量
 tags: Excel WPS CASS VBA
 author: QinDong
@@ -14,15 +14,15 @@ Paste Image是一个截图粘贴的插件。用截图软件截图后，<kbd>Ctrl
 
 ### 安装扩展Paste Image
 
-![](images/20190920-154140.png)
+![](./images/20190920-154140.png)
 
 ### 设置Paste Image参数
 
 Markdown文章所用图片均存放在文档同目录下的“images”子目录下，Paste Image参数主要参数作如下设置：
 
-![](images/20190920-155526.png)
+![](./images/20190920-155526.png)
 
-![](images/20190920-155613.png)
+![](./images/20190920-155613.png)
 
 需要设置的主要参数为：
 
