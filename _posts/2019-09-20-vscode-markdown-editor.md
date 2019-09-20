@@ -14,7 +14,7 @@ Paste Image是一个截图粘贴的插件。用截图软件截图后，<kbd>Ctrl
 
 ### 安装扩展Paste Image
 
-![](/images/20190920-154140.png)
+![](images/20190920-154140.png)
 
 ### 设置Paste Image参数
 
