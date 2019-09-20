@@ -14,15 +14,17 @@ Paste Image是一个截图粘贴的插件。用截图软件截图后，<kbd>Ctrl
 
 ### 安装扩展Paste Image
 
-![](./images/20190920-154140.png)
+![](/images/20190920-154140.png)
 
 ### 设置Paste Image参数
 
 Markdown文章所用图片均存放在文档同目录下的“images”子目录下，Paste Image参数主要参数作如下设置：
 
-![](./images/20190920-155526.png)
+![](/images/20190920-155526.png)
 
-![](./images/20190920-155613.png)
+![](/images/20190920-162015.png)
+
+![](/images/20190920-155613.png)
 
 需要设置的主要参数为：
 
@@ -32,3 +34,8 @@ Markdown文章所用图片均存放在文档同目录下的“images”子目录
 其它参数保持默认即可。
 
 Paste Image安装设置好后，用截图软件截图到剪贴板，回到VS code中用快捷键<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>V</kbd>即可将图片保存到文档下的“Images”目录下并同时将图片地址添加到文档中。
+
+![](../GitHub/blog/qin-dong.github.io/_posts/img/2019/20190920-162839.png)
+
+
+![](../img/2019/20190920-163204.png)
