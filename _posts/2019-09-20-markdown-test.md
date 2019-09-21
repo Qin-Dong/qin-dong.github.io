@@ -1,3 +1,3 @@
 
 
-![20190921-161153](/img/2019/20190921-161153.png)
+<div style="text-align:center;"><img src="/img/2019/20190921-172830.png"></div>

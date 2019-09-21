@@ -34,10 +34,16 @@ Jekyll博客中的图片不能放在文档所在目录下并在Markdown中使用
 针对此情况，图片只能存放在“_post”同级的“img”目录下，对此设置为：
 
 ```
-- Default Name：“YMMDD-HHmmss”
-- Paste Image: Path “../img/2019/”
-- Paste Image: Base Path “/img/2019/”
-- Paste Image: Insert Pattern “![${imageFileNameWithoutExt}](/img/2019/${imageFileName})”
+Default Name：“YMMDD-HHmmss”
+Paste Image: Path “../img/2019/”
+Paste Image: Base Path “/img/2019/”
+Paste Image: Insert Pattern “![${imageFileNameWithoutExt}](/img/2019/${imageFileName})”
+```
+
+可在Markdown中直接使用HTML语句，如可将图片插入地址用HTML语句将Paste Image: Insert Pattern 设置以下值实现图片居中：
+
+```
+<div style="text-align:center;"><img src="/img/2019/${imageFileName}"></div>
 ```
 
 参数设置见下图：
