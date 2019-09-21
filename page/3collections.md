@@ -11,17 +11,19 @@ type: page
 
 ## 工具
 
-* [box-shadow generator](http://www.cssmatic.com/box-shadow)
+* [Everything](http://www.voidtools.com/)
 
-    生成 box-shadow 的工具。
+    基于名称快速定位文件和文件夹。比windows自带的搜索快太多，巨量资料搜索秒出结果。支持模糊搜索。
 
-* [gradient-generator](http://www.cssmatic.com/gradient-generator)
+* [Listary](https://www.iplaysoft.com/listary.html)
 
-    渐变生成器。
+    它是一款非常优秀的 Windows 文件浏览和搜索增强工具，可以为你 Windows 的「文件浏览对话框」、「资源管理器」等增加非常方便的文件快速定位、实时全盘搜索、常用文件夹收藏、打开历史、快速切换到已打开的路径、快捷右键菜单等一系列非常非常实用和高效的功能，它能将 Windows 的便捷性提高到一个新的高度！
 
-* [Ultimate CSS Gradient Generator](http://www.colorzilla.com/gradient-editor/)
+* [Mathpix](https://mathpix.com/)
 
-    也是渐变生成器
+    截图并识别图中数学公式生成LaTeX公式代码的软件。
+
+![20190921-161247](/img/2019/20190921-161247.png)    
 
 * [CSS Generators -CSSREFLEX](http://www.cssreflex.com/css-generators/)
 
@@ -69,6 +71,7 @@ type: page
 
 - [https://tc39.github.io/ecma262/](https://tc39.github.io/ecma262/)
 * [http://www.ecma-international.org/ecma-262/6.0/](http://www.ecma-international.org/ecma-262/6.0/)
+
 
     ES2015规范
 
