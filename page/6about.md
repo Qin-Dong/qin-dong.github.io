@@ -17,7 +17,7 @@ type: page
 
 ## 联系
 
-* email：cehui#139.com
+* email：qindong.cn@gmail.com
 * [微博：cehuis](http://weibo.com/qindonge)
 * QQ：61902475
 
