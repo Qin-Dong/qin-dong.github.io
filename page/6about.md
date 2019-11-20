@@ -17,8 +17,8 @@ type: page
 
 ## 联系
 
-* email：qindong.cn@gmail.com
-* [微博：cehuis](http://weibo.com/qindonge)
+* 电邮：qindong.cn@gmail.com
+* 微博：@Qin-Dong
 * QQ：61902475
 
 扫我微信：
