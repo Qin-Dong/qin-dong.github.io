@@ -15,6 +15,7 @@ author: QinDong
 ### 模板下载
 
 > 下载地址: https://pan.baidu.com/s/1Dtu9T_4sE7I7-agG-o-viw
+
 > 提取码: wktc
 
 ### 模板设置
@@ -28,3 +29,7 @@ author: QinDong
 <div style="text-align:center;"><img src="/img/2019/20191121-111358.png"></div>
 
 至此完成模板的设置。
+
+本模板对点、等高线、横断面图的样式和标签进行了针对性的设置：
+
+<div style="text-align:center;"><img src="/img/2019/20191121-113028.png"></div>
