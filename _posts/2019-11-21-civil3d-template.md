@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "AutoCAD Civil 3D本地化模板下载及设置"
+date:   2019-11-20 15:14:54
+categories: Civil3D
+tags: 模板 Civil3D AutoCAD
+author: QinDong
+---
+
+* content
+{:toc}
+
+安装AutoCAD Civil3D后默认使用的是其自带的公制模板，其中各种标签、样式均不符合我们国内的标准，因此必须使用本地化地制图模板。本文详细说明了模板的使用方法。
+
+### 模板下载
+
+> 下载地址: https://pan.baidu.com/s/1Dtu9T_4sE7I7-agG-o-viw
+> 提取码: wktc
+
+### 模板设置
+
+打开Civil 3D后输入命令“op”打开设置窗口：
+
+<div style="text-align:center;"><img src="/img/2019/20191121-111131.png"></div>
+
+选中“文件”选项卡，展开“样板设置”、“快速新建的默认样板文件名”，点右侧的“浏览”打到下载的模板文件并打开即可。
+
+<div style="text-align:center;"><img src="/img/2019/20191121-111358.png"></div>
+
+至此完成模板的设置。

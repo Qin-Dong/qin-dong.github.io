@@ -4,6 +4,7 @@ title:  "测量队数据文件命名规则"
 date:   2019-11-20 15:14:54
 categories: 工程测量
 tags: 规则
+author: QinDong
 ---
 
 * content
