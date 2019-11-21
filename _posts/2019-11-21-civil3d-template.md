@@ -14,9 +14,9 @@ author: QinDong
 
 ### 模板下载
 
-> 下载地址: https://pan.baidu.com/s/1Dtu9T_4sE7I7-agG-o-viw
-
-> 提取码: wktc
+> 链接：https://share.weiyun.com/5nhj0Fw
+> 
+> 密码：njwxw8
 
 ### 模板设置
 
