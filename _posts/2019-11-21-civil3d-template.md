@@ -35,4 +35,16 @@ author: QinDong
 
 本模板对点、等高线、横断面图的样式和标签进行了针对性的设置：
 
+#### 地形点样式
+
 <div style="text-align:center;"><img src="/img/2019/20191121-113028.png"></div>
+
+<div style="text-align:center;"><img src="/img/2019/20191121-181019.png"></div>
+
+#### 曲面（三角网及等高线）样式
+
+<div style="text-align:center;"><img src="/img/2019/20191121-180932.png"></div>
+
+#### 横断面样式
+
+<div style="text-align:center;"><img src="/img/2019/20191121-181107.png"></div>
